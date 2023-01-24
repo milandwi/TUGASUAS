@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body{
+    background-color: white;
+}
+.navlogo{
+    padding-left: 30px;
+    width: 20%;
+}
+.navtitle{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about{
+    background-color: white;
+}
+.imgabout{
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+}
+.aboutdesc{
+    font-size: 18px;
+    color: black;
+    padding: 1rem 3rem;
+}
+.counting{
+    width: 100%;
+    padding: 2rem 5%;
+    margin: 1rem 0;
+    min-height: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center; 
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("download\ \(1\).jpg");
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("download\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.counting .box {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 25rem;
+        flex: 1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+.counting .box .count{
+    color:white;
+    font-size: 5rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+.counting .box i{
+    color:white;
+    font-size: 6rem;
+    width: 6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    
+}
+.footer{
+    background-color: #000000;
+    padding: 2rem 5%;
+    color: #ccc;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: #ccc;
+}
+.footer a:hover{
+    color:white;
+}
+.jdsub{
+    text-align: center;
+    text-shadow: 1px 1px #ccc;
+}
+.spasi{
+    margin-bottom: 20px 0;
+    padding: 20px;
+}
+.img-menu{
+    height: 230px;
+    overflow: hidden;
+}
+.img-menu img{
+    transition: transform .5s ease;
+}
+.img-menu:hover img{
+    transform: scale(1.5);
+}
